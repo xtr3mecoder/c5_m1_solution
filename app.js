@@ -2,7 +2,7 @@
 	angular.module('LunchCheck',[])
 
 	.controller('lccontr',cnt);
-
+	cnt.$inject = ['$scope'];
 	function cnt($scope){
 		$scope.name = "";
 		$scope.message = "";
