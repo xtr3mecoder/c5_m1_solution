@@ -14,8 +14,8 @@
 		  };
 		  if ($scope.name != null){
 		  var arrayOfStrings = $scope.name.split(',');
-		  console.log('The original string is: "' + $scope.name + '"');
-		  console.log('The array has ' + arrayOfStrings.length + ' elements: ' + arrayOfStrings.join(' / '));
+		  //console.log('The original string is: "' + $scope.name + '"');
+		  //console.log('The array has ' + arrayOfStrings.length + ' elements: ' + arrayOfStrings.join(' / '));
 		  $scope.value = arrayOfStrings.length;
 			  if ($scope.value < 4){
 			  	$scope.message = "Enjoy!";
